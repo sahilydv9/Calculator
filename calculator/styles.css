@@ -1,0 +1,48 @@
+body {
+  /* background: linear-gradient(#a67b5b, #6f4e37); */
+  background-color: #212121;
+  background-attachment: fixed;
+}
+
+.article {
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  /* background: linear-gradient(#a, #fff); updated */
+
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.input {
+  width: 240px;
+  height: 2rem;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+section button {
+  width: 44px;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid #ccc;
+  color: #fff;
+}
+
+section button:hover {
+  background-color: #1eb9d4;
+  color: #fff;
+}
